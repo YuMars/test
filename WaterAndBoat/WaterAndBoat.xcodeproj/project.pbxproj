@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0606161CB5F00100F8617C /* BoatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C0606151CB5F00100F8617C /* BoatView.m */; };
+		3C1B40BC1CB354AF0076CBD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40BB1CB354AF0076CBD8 /* main.m */; };
+		3C1B40BF1CB354AF0076CBD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40BE1CB354AF0076CBD8 /* AppDelegate.m */; };
+		3C1B40C21CB354AF0076CBD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40C11CB354AF0076CBD8 /* ViewController.m */; };
+		3C1B40C51CB354AF0076CBD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1B40C31CB354AF0076CBD8 /* Main.storyboard */; };
+		3C1B40C71CB354AF0076CBD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C1B40C61CB354AF0076CBD8 /* Assets.xcassets */; };
+		3C1B40CA1CB354AF0076CBD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C1B40C81CB354AF0076CBD8 /* LaunchScreen.storyboard */; };
+		3C1B40D51CB354AF0076CBD8 /* WaterAndBoatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40D41CB354AF0076CBD8 /* WaterAndBoatTests.m */; };
+		3C1B40E11CB354ED0076CBD8 /* WaterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40E01CB354ED0076CBD8 /* WaterView.m */; };
+		3C1B40E71CB358B20076CBD8 /* WaterAndBoatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1B40E61CB358B20076CBD8 /* WaterAndBoatView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C1B40D11CB354AF0076CBD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C1B40AF1CB354AF0076CBD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C1B40B61CB354AF0076CBD8;
+			remoteInfo = WaterAndBoat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0606141CB5F00100F8617C /* BoatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoatView.h; sourceTree = "<group>"; };
+		3C0606151CB5F00100F8617C /* BoatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoatView.m; sourceTree = "<group>"; };
+		3C1B40B71CB354AF0076CBD8 /* WaterAndBoat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterAndBoat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1B40BB1CB354AF0076CBD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C1B40BD1CB354AF0076CBD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C1B40BE1CB354AF0076CBD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C1B40C01CB354AF0076CBD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C1B40C11CB354AF0076CBD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C1B40C41CB354AF0076CBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C1B40C61CB354AF0076CBD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C1B40C91CB354AF0076CBD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3C1B40CB1CB354AF0076CBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1B40D01CB354AF0076CBD8 /* WaterAndBoatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WaterAndBoatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C1B40D41CB354AF0076CBD8 /* WaterAndBoatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WaterAndBoatTests.m; sourceTree = "<group>"; };
+		3C1B40D61CB354AF0076CBD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1B40DF1CB354ED0076CBD8 /* WaterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterView.h; sourceTree = "<group>"; };
+		3C1B40E01CB354ED0076CBD8 /* WaterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterView.m; sourceTree = "<group>"; };
+		3C1B40E51CB358B20076CBD8 /* WaterAndBoatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterAndBoatView.h; sourceTree = "<group>"; };
+		3C1B40E61CB358B20076CBD8 /* WaterAndBoatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterAndBoatView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C1B40B41CB354AF0076CBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1B40CD1CB354AF0076CBD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C1B40AE1CB354AF0076CBD8 = {
+			isa = PBXGroup;
+			children = (
+				3C1B40B91CB354AF0076CBD8 /* WaterAndBoat */,
+				3C1B40D31CB354AF0076CBD8 /* WaterAndBoatTests */,
+				3C1B40B81CB354AF0076CBD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C1B40B81CB354AF0076CBD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B40B71CB354AF0076CBD8 /* WaterAndBoat.app */,
+				3C1B40D01CB354AF0076CBD8 /* WaterAndBoatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C1B40B91CB354AF0076CBD8 /* WaterAndBoat */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B40BD1CB354AF0076CBD8 /* AppDelegate.h */,
+				3C1B40BE1CB354AF0076CBD8 /* AppDelegate.m */,
+				3C1B40C01CB354AF0076CBD8 /* ViewController.h */,
+				3C1B40C11CB354AF0076CBD8 /* ViewController.m */,
+				3C1B40E51CB358B20076CBD8 /* WaterAndBoatView.h */,
+				3C1B40E61CB358B20076CBD8 /* WaterAndBoatView.m */,
+				3C1B40DF1CB354ED0076CBD8 /* WaterView.h */,
+				3C1B40E01CB354ED0076CBD8 /* WaterView.m */,
+				3C0606141CB5F00100F8617C /* BoatView.h */,
+				3C0606151CB5F00100F8617C /* BoatView.m */,
+				3C1B40C31CB354AF0076CBD8 /* Main.storyboard */,
+				3C1B40C61CB354AF0076CBD8 /* Assets.xcassets */,
+				3C1B40C81CB354AF0076CBD8 /* LaunchScreen.storyboard */,
+				3C1B40CB1CB354AF0076CBD8 /* Info.plist */,
+				3C1B40BA1CB354AF0076CBD8 /* Supporting Files */,
+			);
+			path = WaterAndBoat;
+			sourceTree = "<group>";
+		};
+		3C1B40BA1CB354AF0076CBD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B40BB1CB354AF0076CBD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C1B40D31CB354AF0076CBD8 /* WaterAndBoatTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C1B40D41CB354AF0076CBD8 /* WaterAndBoatTests.m */,
+				3C1B40D61CB354AF0076CBD8 /* Info.plist */,
+			);
+			path = WaterAndBoatTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C1B40B61CB354AF0076CBD8 /* WaterAndBoat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1B40D91CB354AF0076CBD8 /* Build configuration list for PBXNativeTarget "WaterAndBoat" */;
+			buildPhases = (
+				3C1B40B31CB354AF0076CBD8 /* Sources */,
+				3C1B40B41CB354AF0076CBD8 /* Frameworks */,
+				3C1B40B51CB354AF0076CBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterAndBoat;
+			productName = WaterAndBoat;
+			productReference = 3C1B40B71CB354AF0076CBD8 /* WaterAndBoat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C1B40CF1CB354AF0076CBD8 /* WaterAndBoatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C1B40DC1CB354AF0076CBD8 /* Build configuration list for PBXNativeTarget "WaterAndBoatTests" */;
+			buildPhases = (
+				3C1B40CC1CB354AF0076CBD8 /* Sources */,
+				3C1B40CD1CB354AF0076CBD8 /* Frameworks */,
+				3C1B40CE1CB354AF0076CBD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C1B40D21CB354AF0076CBD8 /* PBXTargetDependency */,
+			);
+			name = WaterAndBoatTests;
+			productName = WaterAndBoatTests;
+			productReference = 3C1B40D01CB354AF0076CBD8 /* WaterAndBoatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C1B40AF1CB354AF0076CBD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dreamtouch;
+				TargetAttributes = {
+					3C1B40B61CB354AF0076CBD8 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					3C1B40CF1CB354AF0076CBD8 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 3C1B40B61CB354AF0076CBD8;
+					};
+				};
+			};
+			buildConfigurationList = 3C1B40B21CB354AF0076CBD8 /* Build configuration list for PBXProject "WaterAndBoat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C1B40AE1CB354AF0076CBD8;
+			productRefGroup = 3C1B40B81CB354AF0076CBD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C1B40B61CB354AF0076CBD8 /* WaterAndBoat */,
+				3C1B40CF1CB354AF0076CBD8 /* WaterAndBoatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C1B40B51CB354AF0076CBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1B40CA1CB354AF0076CBD8 /* LaunchScreen.storyboard in Resources */,
+				3C1B40C71CB354AF0076CBD8 /* Assets.xcassets in Resources */,
+				3C1B40C51CB354AF0076CBD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1B40CE1CB354AF0076CBD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C1B40B31CB354AF0076CBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1B40E71CB358B20076CBD8 /* WaterAndBoatView.m in Sources */,
+				3C1B40E11CB354ED0076CBD8 /* WaterView.m in Sources */,
+				3C0606161CB5F00100F8617C /* BoatView.m in Sources */,
+				3C1B40C21CB354AF0076CBD8 /* ViewController.m in Sources */,
+				3C1B40BF1CB354AF0076CBD8 /* AppDelegate.m in Sources */,
+				3C1B40BC1CB354AF0076CBD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C1B40CC1CB354AF0076CBD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C1B40D51CB354AF0076CBD8 /* WaterAndBoatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C1B40D21CB354AF0076CBD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C1B40B61CB354AF0076CBD8 /* WaterAndBoat */;
+			targetProxy = 3C1B40D11CB354AF0076CBD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C1B40C31CB354AF0076CBD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1B40C41CB354AF0076CBD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C1B40C81CB354AF0076CBD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C1B40C91CB354AF0076CBD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C1B40D71CB354AF0076CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C1B40D81CB354AF0076CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C1B40DA1CB354AF0076CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterAndBoat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dreamtouch.WaterAndBoat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C1B40DB1CB354AF0076CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WaterAndBoat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dreamtouch.WaterAndBoat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C1B40DD1CB354AF0076CBD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterAndBoatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dreamtouch.WaterAndBoatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterAndBoat.app/WaterAndBoat";
+			};
+			name = Debug;
+		};
+		3C1B40DE1CB354AF0076CBD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WaterAndBoatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.com.dreamtouch.WaterAndBoatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WaterAndBoat.app/WaterAndBoat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C1B40B21CB354AF0076CBD8 /* Build configuration list for PBXProject "WaterAndBoat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1B40D71CB354AF0076CBD8 /* Debug */,
+				3C1B40D81CB354AF0076CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1B40D91CB354AF0076CBD8 /* Build configuration list for PBXNativeTarget "WaterAndBoat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1B40DA1CB354AF0076CBD8 /* Debug */,
+				3C1B40DB1CB354AF0076CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C1B40DC1CB354AF0076CBD8 /* Build configuration list for PBXNativeTarget "WaterAndBoatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C1B40DD1CB354AF0076CBD8 /* Debug */,
+				3C1B40DE1CB354AF0076CBD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C1B40AF1CB354AF0076CBD8 /* Project object */;
+}
